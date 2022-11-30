@@ -26,7 +26,7 @@ int[] NewArrayXXX(int size, int min, int max)
 }
 
 Console.Write("Новый массив: ");
-int[] array = NewArrayXXX(5, 100, 999);
+int[] array = NewArrayXXX(10, 100, 999);
 PrintArray(array);
 
 int EvenNumber(int[] arr)
